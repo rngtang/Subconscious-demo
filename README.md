@@ -7,7 +7,7 @@ Using the Subsconscious SDK and platform I wanted to experiment with building an
 For this demo, I built an agent that could search of events happening in the area within the next week. I tested with multiple iterations of the prompt, which contained different levels of details, symbols, and constraints to see if there was any different in the results from the platform and SDK. Furthermore, I also experimented using the the large and small model to see if there were any differences in the results. Initially, I started with a simple prompt it the playground, and then I would move to the SDK to build the agent.
 
 ## Agent Design
-For this agent, I used the ```web_search``` tool to search for events happening in the area as well as the prompt to guide the agent in case of edge cases like not finding any events. However, some parts of the prompt had to be adjusted when using the SDK as I will explain further below.
+I wanted to build something simple but that covers the purpose of Subsconcious, which are sophisticated automatization. For this agent, I used the ```web_search``` tool to search for events happening in the area as well as the prompt to guide the agent in case of edge cases like not finding any events. However, some parts of the prompt had to be adjusted when using the SDK as I will explain further below.
 
 ## Example outputs
 In the image below, you can see an example output from the agent when searching events in Durham, NC for the next week. The agent was able to successfully find multiple events happening in the area and provide relevant details about each event.
