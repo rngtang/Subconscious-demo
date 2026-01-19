@@ -38,4 +38,3 @@ As I kept experimenting with the platform and SDK, I found some areas that could
 1. When using larger prompts, I found that the agent would fail in retrieving the the information, even if the exact same prompt worked in the playground. I believe this could be due to some limitations in the SDK or the way it handles larger prompts. It would be great to have better error handling or feedback when such issues occur.
 2. I feel like there is not error handling when using a wrong API key. It would be great if there could be some kind of validation or error message when the API key is invalid.
 3. I did get several errors like empty responses when making slight modifications to the prompt or to the used tools. I feel this might be some kind of time out. Even when using the "code" that is given in the playground, I would get empty responses. It would be great to have better error handling or feedback when such issues occur.
-4. 

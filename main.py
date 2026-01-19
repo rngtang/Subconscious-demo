@@ -1,6 +1,10 @@
 from subconscious import Subconscious
+import os
+import dotenv
 
-client = Subconscious(api_key="sk-91e41165db34bcfbba8de0dc47f02612312a8b9ae632c2839edeb60ca145ce76")
+dotenv.load_dotenv()
+
+client = Subconscious(api_key=os.getenv("SUBCONSCIOUS_API_KEY"))
 
 run = client.run(
     engine="tim-large",
